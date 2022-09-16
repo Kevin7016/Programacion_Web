@@ -1,0 +1,10 @@
+.btnRegister{
+    border: none;
+    padding: 2%;
+    background: #e97a13;
+    color: #fff;
+    font-weight: 600;
+    width: 70%;
+    cursor: pointer;
+    text-align: center;
+}

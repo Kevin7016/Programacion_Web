@@ -1,0 +1,14 @@
+.bg-image{
+
+    background:center;
+    
+    background-color: rgba(177, 220, 48, 0.6);
+    background-size: contain;
+    background: repeat no-repeat;
+    padding: 0px 0px 0px;
+
+    margin: 0;
+
+    font-size: 2.5rem;
+    
+}
