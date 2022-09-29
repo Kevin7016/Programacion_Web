@@ -11,6 +11,7 @@ import { Container2Component } from './seccion/container2/container2.component';
 import { HomeComponent } from './home/home.component';
 import { Seccion2Component } from './seccion2/seccion2.component';
 import { BarraComponent } from './seccion/barra/barra.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BarraComponent } from './seccion/barra/barra.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

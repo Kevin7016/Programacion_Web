@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Pag2Component implements OnInit {
 
+  pag2!:string;
   constructor() { }
+  
 
   ngOnInit(): void {
   }
 
+  event (){
+    this.pag2="Como puedo ayudarte";
+  }
 }
