@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Empleado } from 'src/app/empleado.model';
 
 @Component({
   selector: 'app-form-h',
@@ -7,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormHComponent implements OnInit {
 
-  constructor() { }
+ @Input() empleadoL:Empleado;
+ @Input() indice:number;
 
+  constructor() { 
+      
+   
+  }
   ngOnInit(): void {
   }
 
