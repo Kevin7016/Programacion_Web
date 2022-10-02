@@ -7,7 +7,7 @@ import { Empleado } from './empleado.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular';
+  title = 'EMPLEADOS';
 
   empleados:Empleado[]=[
     new Empleado("Juan","Diaz","Admin",8000),

@@ -7,7 +7,6 @@ constructor(nombre:string, apellido:string, cargo:string, salario:number){
     this.salario=salario;
 }
 
-
     nombre:string="";
     apellido:string="";
     cargo:string="";
