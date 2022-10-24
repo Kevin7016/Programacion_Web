@@ -8,6 +8,8 @@ import { Empleado } from 'src/app/empleado.model';
 })
 export class FormHComponent implements OnInit {
 
+  
+
  @Input() empleadoL:Empleado;
  @Input() indice:number;
 
